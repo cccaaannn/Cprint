@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setup(
      name='extprint',  
-     version='0.2',
+     version='0.3',
      scripts=['extprint'] ,
      author="Can Kurt",
      author_email="can.kurt.aa@gmail.com",
