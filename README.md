@@ -1,3 +1,3 @@
 # Cprint
-prints color
+prints color and
 prints lists and their indexes
