@@ -35,9 +35,8 @@ def printcolored(to_print, color = "NONE", bold = False, italic = False):
     elif(color == "?"):
         printlist(colors)
     else:
-        print("no such color, to see existing colors send ? as color parameter\nexample: printcolored('hi', color='?')\n")
+        print("No such color, to see existing colors send ? as color parameter\nexample: printcolored('hi', color='?')\n")
 
-example_list = [1,2,3,4,5,6,7,8,9,0]
 def printlist(list, start_index = 1, seperator = "-", color = "NONE", bold = False, italic = False):
     """prints lists and their indexes, colors may look bad in some platforms so if color is not given function uses regular print"""
     if(bold or italic or color != "NONE"):
@@ -46,9 +45,3 @@ def printlist(list, start_index = 1, seperator = "-", color = "NONE", bold = Fal
     else:
         for index, element in enumerate(list, start=start_index):
             print("{} {} {}".format(index, seperator, element))
-
-
-
-printlist(example_list ,bold=True,color="RED")
-
-printcolored(example_list, color="GREEN", bold=True)

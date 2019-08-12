@@ -5,9 +5,9 @@ with open("README.md", "r") as fh:
 
 
 setuptools.setup(
-     name='Cprint',  
+     name='extprint',  
      version='0.1',
-     scripts=['Cprint'] ,
+     scripts=['extprint'] ,
      author="Can Kurt",
      author_email="can.kurt.aa@gmail.com",
      description="prints stuff",
