@@ -1,2 +1,2 @@
 # extprint
-prints color, prints lists and their indexes
+prints color, prints lists and their indexes.
