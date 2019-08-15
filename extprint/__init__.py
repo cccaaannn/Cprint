@@ -1,1 +1,1 @@
-from extprint import extprint
+from .extprint import printlist,printcolored

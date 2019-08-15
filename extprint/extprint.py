@@ -1,4 +1,6 @@
-from NoSuchColorException import NoSuchColorException
+from .exceptions import NoSuchColorException
+#from exceptions import NoSuchColorException
+
 
 colors = {
     "BLACK" : "\33[30m",
@@ -37,7 +39,7 @@ def printcolored(to_print, color = "NONE", bold = False, italic = False):
     elif(color == "?"):
         printlist(colors)
     else:
-        raise NoSuchColorException("No such color, to see existing colors pass ? as color parameter\nexample: printcolored('hi', color='?')\n")
+        raise NoSuchColorException()
 
 def printlist(list, start_index = 1, seperator = "-", color = "NONE", bold = False, italic = False):
     """prints lists and their indexes, colors may look bad in some platforms so if color is not given function uses regular print"""
