@@ -5,10 +5,10 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="extprint",
-    version="0.0.5",
+    version="0.0.6",
     author="Can Kurt",
     author_email="can.kurt.aa@gmail.com",
-    description="prints stuff",
+    description="extended print",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/cccaaannn/extprint",
