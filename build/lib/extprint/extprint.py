@@ -47,3 +47,5 @@ def printlist(list, start_index = 1, seperator = "-", color = "NONE", bold = Fal
     else:
         for index, element in enumerate(list, start=start_index):
             print("{} {} {}".format(index, seperator, element))
+
+printcolored("aaaaaaaaaaaaaaaaaaaaaaaaa",color="GREEN")

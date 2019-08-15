@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="extprint",
-    version="0.0.2",
+    version="0.0.3",
     author="Can Kurt",
     author_email="can.kurt.aa@gmail.com",
     description="prints stuff",

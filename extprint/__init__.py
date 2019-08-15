@@ -1,1 +1,1 @@
-import extprint
+from extprint import extprint
