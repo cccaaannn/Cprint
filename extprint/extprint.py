@@ -40,6 +40,11 @@ def set_default_print_options(start_index = 1, seperator = "-", color = "NONE", 
     else:
         raise NoSuchColorException()
 
+def show_available_colors():
+    print("\nAvailable Colors:")
+    printlist(colors)
+    
+
 def printcolored(to_print, color = "NONE", bg_color= "NONE", bold = False, italic = False):
     """prints colored text with bold and italic options"""
     if(bold):
@@ -54,9 +59,6 @@ def printcolored(to_print, color = "NONE", bg_color= "NONE", bold = False, itali
 
     if(color in colors and bg_color in bg_colors):
         print("{}{}{}{}{}{}".format(colors[color], bg_colors[bg_color],bold, italic, to_print, style["END"]))
-    elif(color == "?"):
-        print("\ncolors:")
-        printlist(colors)
     else:
         raise NoSuchColorException()
 

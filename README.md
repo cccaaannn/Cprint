@@ -59,7 +59,9 @@ HI
 ## Available colors-options
 
 ```python
-printcolored("", color="?")
+from extprint import show_available_colors
+
+show_available_colors()
 
 ```
 

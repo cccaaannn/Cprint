@@ -1,1 +1,1 @@
-from .extprint import printlist,printcolored,set_default_print_options
+from .extprint import printlist,printcolored,set_default_print_options,show_available_colors
