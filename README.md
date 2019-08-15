@@ -1,2 +1,13 @@
 # extprint
-prints color, prints lists and their indexes.
+
+**prints with color**
+
+**prints lists and their indexes**
+
+
+## Install
+
+```sh
+pip install extprint
+```
+
