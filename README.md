@@ -2,7 +2,7 @@
 
 - **prints with color**
 
-- **prints lists and their indexes**
+- **prints lists and their indexes line by line**
 
 
 ## Install
@@ -20,12 +20,31 @@ from extprint import printlist,printcolored
 ```python
 list = [1,2,3,4,5,6,7,8,9,0]
 
-printlist(list, color="GREEN")
+printlist(list, seperator="----->", start_index=0, color="GREEN", bold=True)
 
-printcolored("selamınaleyküm",color="BLUE")
+printcolored("HELLO", color="BLUE", bold=True)
+```
+```
+0 -----> 1
+1 -----> 2
+2 -----> 3
+3 -----> 4
+4 -----> 5
+5 -----> 6
+6 -----> 7
+7 -----> 8
+8 -----> 9
+9 -----> 0
+HELLO
 ```
 
+
 ## Available colors-options
+
+```python
+printcolored("", color="?")
+
+```
 
 - **BLACK**
 - **RED**
@@ -40,7 +59,3 @@ printcolored("selamınaleyküm",color="BLUE")
 - **ITALIC**
 
 
-```python
-printcolored("", color="?")
-
-```
